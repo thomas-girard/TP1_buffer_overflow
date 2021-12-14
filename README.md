@@ -11,4 +11,8 @@
 * le shellcode est en 64 bits
 * gcc -g -m32 -z execstack -fno-stack-protector vulnerable.c -o vulnerable
 
+2.8
+
+* setarch -R ./vulnerable
+
 
